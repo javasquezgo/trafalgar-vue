@@ -3,7 +3,12 @@
     <div class="w-11/12 mx-auto">
       <div class="items-center justify-between text-center md:flex">
         <figure>
-          <img class="mx-auto" src="@/assets/logo.svg" :alt="msg" />
+          <img
+            loading="lazy"
+            class="mx-auto"
+            src="../assets/logo.svg"
+            :alt="msg"
+          />
         </figure>
         <nav>
           <ul class="md:flex">
@@ -61,7 +66,7 @@
           </a>
         </div>
         <figure class="md:w-1/2">
-          <img src="../assets/trafalgar-header.png" :alt="msg" />
+          <img src="@/assets/webp/trafalgar-header.webp" :alt="msg" />
         </figure>
       </div>
     </div>
