@@ -1,4 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap");
 @tailwind base;
 @tailwind components;
+
+.card {
+  min-width: 315px;
+  width: 100%;
+  max-width: 350px;
+  height: 354px;
+}
+
+.card-p {
+  width: 266px;
+}
+
+.background-services {
+  background-image: url("../svg/back-services.svg");
+}
+
+.shadow-card {
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+}
+
 @tailwind utilities;
